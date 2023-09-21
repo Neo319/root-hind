@@ -6,9 +6,14 @@ body {
     margin: 0;
 }
 
-/* * {border: 1px solid red;} */
+* {border: 1px solid red;}
 
-img {height: 200px;}
+img {
+    height: 200px;
+    border-radius: 25px;
+    border: solid 2px gray;
+
+}
 
 .header, .body {
     background-color: rgb(20, 46, 20);
@@ -35,8 +40,10 @@ li {
     display: inline-block;
 }
 
-.body {
-    display: flex;
-    background-color: rgb(20, 46, 20);
+ .body {
+    justify-content: space-around;
 
+}
+.body img {
+    height: 300px
 }
