@@ -13,6 +13,14 @@ img {
     border-radius: 25px;
     border: solid 4px gray;
 }
+
+button {
+    padding: 8px;
+    max-width: 15%;
+    min-width: 15%;
+    
+
+}
 /* ----------------------------------------------------------------------- */
 .header, .body {
     background-color: rgb(20, 46, 20);
