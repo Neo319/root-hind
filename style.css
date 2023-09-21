@@ -1,14 +1,17 @@
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+* {border: 1px solid red;}
+
 img {height: 200px;}
 
-* { 
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    /* border: 1px solid red;  */
-}
 .header {
     background-color: rgb(20, 46, 20);
     color: white; 
     padding: 16px;
-
 }
 
 ul {
