@@ -3,6 +3,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin: 0;
 }
 
 /* * {border: 1px solid red;} */
@@ -16,12 +17,15 @@ img {height: 200px;}
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 16px;
+    padding-top: 64px;
 }
 
 .logo {
     font-weight: 900;
     font-size: xx-large;
     font-family: 'Courier New', Courier, monospace;
+    margin-left: 80px;
 }
 
 ul {
