@@ -14,7 +14,7 @@ img {
     border: solid 2px gray;
 
 }
-
+/* ----------------------------------------------------------------------- */
 .header, .body {
     background-color: rgb(20, 46, 20);
     color: white; 
@@ -39,10 +39,9 @@ ul {
 li {
     display: inline-block;
 }
-
+/* ----------------------------------------------------------------------- */
  .body {
     justify-content: space-around;
-
 }
 .body img {
     height: 300px
