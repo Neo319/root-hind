@@ -10,7 +10,7 @@ body {
 
 img {height: 200px;}
 
-.header {
+.header, .body {
     background-color: rgb(20, 46, 20);
     color: white; 
     padding: 16px;
@@ -33,4 +33,10 @@ ul {
 }
 li {
     display: inline-block;
+}
+
+.body {
+    display: flex;
+    background-color: rgb(20, 46, 20);
+
 }
