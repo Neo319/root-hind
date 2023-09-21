@@ -12,6 +12,8 @@ img {height: 200px;}
     background-color: rgb(20, 46, 20);
     color: white; 
     padding: 16px;
+    display: flex;
+    justify-content: space-between;
 }
 
 ul {
