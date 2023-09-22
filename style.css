@@ -83,6 +83,7 @@ li {
     flex-flow: row nowrap;
     justify-content: space-around;
     margin: 32px;
+    padding-bottom: 32px;
 }
 h2 {
     font-weight: 900px;
@@ -99,3 +100,24 @@ h2 {
     padding-top: 0px;
 }
 /* ----------------------------------------------------------------------- */
+.quote {
+    background-color: #e5e7eb;
+    padding: 48px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-end;
+    padding-left: 180px;
+    padding-right: 180px;
+}
+#q {
+    font-style: italic;
+    font-size: 28px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+#r {
+    font-weight: 900;
+    font-size: 24px;
+    margin-right: 80px;
+    margin-top: 0; 
+} 
