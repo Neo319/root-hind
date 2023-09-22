@@ -12,7 +12,7 @@ img {
     height: 200px;
     border-radius: 25px;
     border: solid 4px gray;
-    /* flex-shrink: 0; */
+    box-shadow: 5px 5px 5px 3px lightgray;
 }
 
 button {
@@ -60,6 +60,7 @@ li {
 .body img {
     height: 300px;
     margin: 64px;
+    box-shadow: none;
 }
 .body h1 {
     font-size: 48px;
