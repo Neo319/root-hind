@@ -121,3 +121,29 @@ h2 {
     margin-right: 80px;
     margin-top: 0; 
 } 
+/* ----------------------------------------------------------------------- */
+.modal {
+    display: flex;
+    border-radius: 15px;
+    background-color: #3cb371;
+    margin: 128px;
+    color:white;
+    flex-direction: row;
+    align-items: center;
+    padding: 18px;
+    padding-left: 32px;
+    padding-right: 32px;
+    justify-content: space-around;
+}
+.modal div {
+    display: flex;
+    flex-flow: column;
+}
+.modal button {
+    border: 3px solid white;
+    height: 40px;
+}
+h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
