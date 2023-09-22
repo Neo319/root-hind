@@ -147,3 +147,11 @@ h3 {
     margin-top: 0;
     margin-bottom: 0;
 }
+/* ----------------------------------------------------------------------- */
+.footer {
+    background-color: rgb(20, 46, 20);
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
