@@ -78,3 +78,24 @@ li {
     font-weight: 900;
 }
 /* ----------------------------------------------------------------------- */
+.info {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    margin: 32px;
+}
+h2 {
+    font-weight: 900px;
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+}
+.card {
+    display: flex;
+    flex-flow: column;
+    max-width: 300px;
+    padding: 20px;
+    padding-top: 0px;
+}
+/* ----------------------------------------------------------------------- */
