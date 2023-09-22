@@ -12,12 +12,19 @@ img {
     height: 200px;
     border-radius: 25px;
     border: solid 4px gray;
+    /* flex-shrink: 0; */
 }
 
 button {
     padding: 8px;
     max-width: 15%;
     min-width: 15%;
+    background-color: #3cb371;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    width: 100px;
+    
     
 
 }
@@ -66,3 +73,8 @@ li {
     flex-wrap: wrap;
     align-content: center;
 }
+
+.body button {
+    font-weight: 900;
+}
+/* ----------------------------------------------------------------------- */
